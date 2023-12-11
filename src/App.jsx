@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import "../src/assets/image/logo.png";
+import "../public/image/logo.png";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <nav>
           <div className="navbar">
             <div className="logo">
-              <img src="../src/assets/image/logo.png"/>
+              <img src="../public/image/logo.png"/>
             </div>
             <div className="navbar_right">
               <ul>
@@ -42,10 +42,10 @@ function App() {
               </div>
         </div>
         <div className="header_img_part">
-          <img className="iceCream" src="../src/assets/image/iceCreamImg.png" alt="" />
-          <img className="milk" src="../src/assets/image/milkImg.png" alt="" />
+          <img className="iceCream" src="../public/image/iceCreamImg.png" alt="" />
+          <img className="milk" src="../public/image/milkImg.png" alt="" />
           <div className="circle"></div>
-          <div className="shadow"></div>
+          <img className="shaow" src="../public/image/ellips.png" alt="" />
         </div>
         </div>
 
@@ -58,7 +58,7 @@ function App() {
 
         <div className="card">
           <div className="img_card">
-            <img src="../src/assets/image/free_shipping.png" alt="" />
+            <img src="../public/image/free_shipping.png" alt="" />
           </div>
           <div className="text_card_part">
             <h4>Free Shipping</h4>
@@ -67,7 +67,7 @@ function App() {
         </div>
         <div className="card">
           <div className="img_card">
-            <img src="../src/assets/image/quick_packgaking.png" alt="" />
+            <img src="../public/image/quick_packgaking.png" alt="" />
           </div>
           <div className="text_card_part">
             <h4>Quick Packaging</h4>
@@ -76,7 +76,7 @@ function App() {
         </div>
         <div className="card">
           <div className="img_card">
-            <img src="../src/assets/image/cash_back.png" alt="" />
+            <img src="../public/image/cash_back.png" alt="" />
           </div>
           <div className="text_card_part">
             <h4>100% Money Back</h4>
@@ -85,7 +85,7 @@ function App() {
         </div>
         <div className="card">
           <div className="img_card">
-            <img src="../src/assets/image/fast_delivery.png" alt="" />
+            <img src="../public/image/fast_delivery.png" alt="" />
           </div>
           <div className="text_card_part">
             <h4>Fast Delivery</h4>
@@ -108,7 +108,8 @@ function App() {
               </div>
             </div>
             <div className="brown_img_part">
-              <img className="sugar" src="../src/assets/image/brownSugar.png" alt="" />
+              <img className="sugar" src="../public/image/brownSugar.png" alt="" />
+              <img className="shadowsugar" src="../public/image/ellips.png" alt="" />
             </div>
           </div>
         </div>
